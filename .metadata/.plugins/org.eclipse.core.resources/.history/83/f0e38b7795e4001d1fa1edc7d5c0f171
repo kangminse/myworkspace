@@ -1,0 +1,14 @@
+package time_ex;
+
+import java.sql.Date;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		long t = System.currentTimeMillis();
+		System.out.println(t);
+		
+		Date d = new Date(t);
+		System.out.println(d);
+	}
+
+}

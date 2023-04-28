@@ -1,0 +1,14 @@
+package object;
+
+import java.util.Scanner;
+
+public class MainClass06 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int n1, n2, sum;
+		System.out.print(" 수 입력 : ");
+		
+	}
+}

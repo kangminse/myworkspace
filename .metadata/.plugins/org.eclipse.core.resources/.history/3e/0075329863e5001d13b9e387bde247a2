@@ -1,0 +1,17 @@
+package inheritance;
+
+import java.util.ArrayList;
+
+class A03{
+	ArrayList<String> arr = new ArrayList<>(); 
+}
+
+public class MainClass03 {
+	public static void main(String[] args) {
+		A03 a = new A03();
+		a.arr.add("1111");
+		System.out.println(a.arr.get(0));
+		
+		
+	}
+}

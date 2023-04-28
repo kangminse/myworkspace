@@ -1,0 +1,19 @@
+package variable;
+
+import java.util.Scanner;
+
+public class TestClass07 {
+	public void display() {
+		Scanner input = new Scanner(System.in);
+		int age;
+		String name;
+		System.out.print("이름 입력 : ");
+		name = input.next();
+		System.out.print("나이 입력 : ");
+		age = input.nextInt();
+		System.out.println("이름 : " + name);
+		age = age-1;
+		System.out.println("만 나이 : " + age);
+		
+	}
+}

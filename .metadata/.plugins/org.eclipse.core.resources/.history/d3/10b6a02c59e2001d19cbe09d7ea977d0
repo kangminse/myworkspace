@@ -1,0 +1,26 @@
+package day08_test01;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public String[] myInput() {
+		Scanner input = new Scanner(System.in);
+		
+		String n1, n2;
+		ArrayList<String> arr = new ArrayList<>();
+		HashMap<String, String> map = new HashMap<>();
+		
+		System.out.print("이름 입력 : ");
+		n1 = input.next();
+		System.out.print("이름 입력 : ");
+		n2 = input.next();
+		
+		String[] name = {n1, n2};
+		return name;
+	}
+	public void myOutput(String[] m) {
+		System.out.println();
+	}
+}

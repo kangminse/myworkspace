@@ -1,0 +1,19 @@
+package singleton;
+
+class A02{
+	int num;
+	public A02() {
+		System.out.println("생성자 실행");
+	}
+}
+
+
+public class MainClass02 {
+	public static void main(String[] args) {
+		A02 a01 = new A02();
+		A02 a02;
+		A02 a03;
+		
+		
+	}
+}

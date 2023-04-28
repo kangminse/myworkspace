@@ -1,0 +1,18 @@
+package test.care;
+
+import test.java.TestClass01;
+import test.java.TestClass02;
+import test.java.TestClass03;
+
+public class Main01 {
+	public static void main(String[] args) {
+		Test01 t = new Test01();
+		t.test();
+		TestClass01 t01 = new TestClass01();
+		t01.test();
+		TestClass02 t02 = new TestClass02();
+		TestClass03 t03 = new TestClass03();
+		
+	}
+
+}

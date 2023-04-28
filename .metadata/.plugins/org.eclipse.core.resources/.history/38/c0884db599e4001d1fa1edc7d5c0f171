@@ -1,0 +1,18 @@
+package time_ex;
+
+import java.io.IOException;
+
+public class processBuilder {
+
+	public static void main(String[] args) {
+		ProcessBuilder pro = new ProcessBuilder();
+		pro.command("calc");
+		
+		try {
+			pro.start();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

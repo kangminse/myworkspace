@@ -1,0 +1,14 @@
+package temp;
+
+public class TempMain {
+	public static void main(String[] args) {
+		int temp = 0;
+		TempService cnt_t = new TempService();
+		
+		
+		
+		
+		
+	}
+
+}

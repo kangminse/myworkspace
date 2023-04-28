@@ -1,0 +1,33 @@
+package if_else;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int h;
+		int m;
+		int ex;
+		int sumM;
+		int cnt = 0;
+		
+		System.out.print("산책을 나가는 시간 : ");
+		h=input.nextInt();
+		m=input.nextInt();
+		System.out.print("산책을 하는 시간 : ");
+		ex=input.nextInt();
+		
+		sumM = m + ex;
+		cnt = sumM / 60;
+		h += cnt;
+		
+		if (h >= 24) {
+			h = h -24 + cnt -2;
+		}
+		
+		System.out.printf("%d %d", h, sumM%60);
+
+	}
+}

@@ -1,0 +1,11 @@
+package set_get;
+
+class TestClass03{
+	
+}
+
+public class MainClass03 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,34 @@
+package random;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class test {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arr = new ArrayList<>();
+		Set<Integer> set = new HashSet<>();
+		int[6] com_arr = {};
+		
+		for(int i=0; i<6; i++) {
+			double ran2 = Math.random()*10+1;
+			com_arr[0] = (int)(ran2);
+			arr.add((int)ran2);
+			System.out.println(com_arr);
+			System.out.println(arr);
+			
+			
+		}
+		
+		while(set.size()<6) {
+			double ran = Math.random()*10+1;
+			set.add((int)(ran));
+		}
+		System.out.println(com_arr);
+		System.out.println(arr);
+		System.out.println(set);
+		
+		
+	}
+}

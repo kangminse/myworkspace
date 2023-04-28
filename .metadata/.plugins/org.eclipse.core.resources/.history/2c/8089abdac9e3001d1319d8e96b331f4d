@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class num5 {
+
+	public static void main(String[] args) {
+		
+		ArrayList arr = new ArrayList<>();
+		arr.add(arr);
+		System.out.println(arr);
+
+	}
+
+}

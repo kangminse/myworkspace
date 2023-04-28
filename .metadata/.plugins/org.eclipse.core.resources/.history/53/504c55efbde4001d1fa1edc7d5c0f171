@@ -1,0 +1,10 @@
+package quzi;
+
+import java.util.HashMap;
+
+public class Win10DTO {
+	HashMap<String, String> info = new HashMap<>();
+	private String clac, notepad;
+	private String msg;
+	
+}

@@ -1,0 +1,27 @@
+package inheritance;
+
+class A08{
+	public void a() {
+		System.out.println("aaa");
+	}
+}
+
+class B08{
+	public void b() {
+		System.out.println("bbbb");
+	}
+}
+
+class C08{
+	public void c() {
+		System.out.println("ccc");
+	}
+}
+
+public class MainClass08 {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

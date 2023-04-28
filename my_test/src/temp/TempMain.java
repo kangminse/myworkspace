@@ -1,0 +1,40 @@
+package temp;
+
+import java.util.Scanner;
+
+public class TempMain {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int temp = 10;
+		TempService cnt_t = new TempService();
+		
+		int num;
+		boolean bool = true;
+		while(bool) {
+			System.out.println("1.온도 올리기");
+			System.out.println("2.온도 내리기");
+			System.out.println("3.현재 설정 정보");
+			System.out.println("4.종료");
+			System.out.print("항목을 선택해주세요 : ");
+			num = input.nextInt();
+			
+			switch(num) {
+			case 1:
+				cnt_t.up();
+				break;
+			case 2:
+				cnt_t.down();
+				break;
+			case 3:
+				cnt_t.display();
+				break;
+			case 4:
+				bool = false;
+				break;
+			}
+		}
+
+		
+	}
+
+}

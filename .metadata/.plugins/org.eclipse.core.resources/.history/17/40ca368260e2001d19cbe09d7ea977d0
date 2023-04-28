@@ -1,0 +1,24 @@
+package day08_test05;
+
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public int myInput() {
+		Scanner input = new Scanner(System.in);
+		int n1;
+		System.out.print("수 입력 : ");
+		n1 = input.nextInt();
+		return n1;
+	}
+	
+	public int myAbs(int n1) {
+		int n2 = Math.abs(n1);
+		return n2;
+	}
+	
+	public void myOutput(int n1, int n2) {
+		System.out.println(n1 + "의 절대값은 : " + n2);
+	}
+	
+	
+}

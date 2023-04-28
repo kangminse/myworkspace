@@ -1,0 +1,12 @@
+package day08_test02;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		MethodClass01 m = new MethodClass01();
+		int num = m.myInput();
+		
+		int stat = m.myAs(num);
+		
+		m.myOutput(stat, num);
+	}
+}

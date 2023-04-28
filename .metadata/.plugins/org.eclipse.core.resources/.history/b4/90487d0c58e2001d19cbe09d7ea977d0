@@ -1,0 +1,8 @@
+package day08_test01;
+
+import java.util.Scanner;
+
+public class MethodClass01 {
+	Scanner input = new Scanner(System.in);
+
+}

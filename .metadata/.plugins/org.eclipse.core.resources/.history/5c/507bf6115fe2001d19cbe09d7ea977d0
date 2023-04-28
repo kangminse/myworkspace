@@ -1,0 +1,23 @@
+package day08_test04;
+
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public int myInput() {
+		Scanner input = new Scanner(System.in);
+		int n1;
+		System.out.print("수 입력 : ");
+		n1 = input.nextInt();
+		return n1;
+	}
+	
+	public int myPrime(int n) {
+		for(int i=2; i<=(int)Math.sqrt(n); i++) {
+			if(n%i == 0) {
+				return 0;
+			}
+		}
+		return 1;
+	}
+	
+}

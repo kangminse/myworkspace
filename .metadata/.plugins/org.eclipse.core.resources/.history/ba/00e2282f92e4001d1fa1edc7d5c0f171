@@ -1,0 +1,14 @@
+package test_dto;
+
+import java.util.Scanner;
+
+public class MemberService {
+	public void inputName() {
+		Scanner input = new Scanner(System.in);
+		int age=0;
+		String name=null;
+		
+		System.out.print("이름 입력 : ");
+	    name = input.next();
+	}
+}

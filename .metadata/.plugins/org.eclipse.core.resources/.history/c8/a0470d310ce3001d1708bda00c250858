@@ -1,0 +1,25 @@
+package variable;
+
+public class TestClass08 {
+	
+	private String name, grade;
+	private int kor, eng, math, sum;
+	private double avg;
+	
+	public void myInput() {
+		
+	}
+	
+	public void cal() {
+		
+	}
+	
+	public void grade() {
+		
+	}
+	
+	public void display() {
+		
+	}
+
+}

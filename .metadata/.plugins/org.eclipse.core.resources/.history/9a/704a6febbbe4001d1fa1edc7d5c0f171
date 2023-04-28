@@ -1,0 +1,14 @@
+package temp;
+
+public class TempService {
+	private TempDTO dto = new TempDTO();
+	public void up() {
+		int t = dto.getTemp();
+		dto.setTemp(t++);
+	}
+	
+	public void down() {
+		int t = dto.getTemp();
+		dto.setTemp(t++);
+	}
+}

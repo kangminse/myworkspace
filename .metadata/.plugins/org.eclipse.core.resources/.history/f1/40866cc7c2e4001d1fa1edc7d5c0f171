@@ -1,0 +1,46 @@
+package quzi;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Map.Entry;
+
+public class Win10Service {
+	
+	Scanner input = new Scanner(System.in);
+	Win10DTO dto;
+	HashMap<String, String> map = new HashMap<>();
+	ProcessBuilder pro = new ProcessBuilder();
+	public Win10Service() {
+		dto = new Win10DTO();
+		map.put("RAM", "16기가");
+		map.put("시스템 종류", "64비트");
+		dto.setInfo(map);
+		
+	}
+	
+	public void display() {
+		for(Map.Entry<String, String> item : map.entrySet())
+		System.out.println(item.getKey() + " : " + item.getValue());
+	}
+	
+	public void use(String cal, String note, String ms) {
+		System.out.println("1)계산기 2)메모장 3)직접입력");
+		System.out.print("항목 입력 : ");
+		int num;
+		num = input.nextInt();
+		
+		switch(num) {
+		case 1:
+			pro.command(cal);
+			break;
+		case 2:
+			pro.command(note);
+			break;
+		case 3:
+			
+			break;
+		}
+	}
+	
+}

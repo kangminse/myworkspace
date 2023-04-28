@@ -1,0 +1,17 @@
+package day08_test01;
+
+import java.util.ArrayList;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		MethodClass01 m = new MethodClass01();
+		ArrayList<String> arr = new ArrayList<>();
+		
+		String[] name = m.myInput();
+		m.myOutput(name);
+		
+		arr = m.myArr();
+		m.myArrout(arr);
+		
+	}//main
+}//class

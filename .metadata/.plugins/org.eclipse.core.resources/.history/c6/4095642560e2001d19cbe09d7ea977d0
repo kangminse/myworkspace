@@ -1,0 +1,20 @@
+package day08_test05;
+
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public int myInput() {
+		Scanner input = new Scanner(System.in);
+		int n1;
+		System.out.print("수 입력 : ");
+		n1 = input.nextInt();
+		return n1;
+	}
+	
+	public int myAbs(int n) {
+		int n2 = Math.abs(n);
+		return n;
+	}
+	
+	
+}

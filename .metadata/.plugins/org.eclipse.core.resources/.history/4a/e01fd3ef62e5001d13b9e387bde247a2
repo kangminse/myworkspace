@@ -1,0 +1,13 @@
+package inheritance;
+
+class A02{
+	
+}
+
+public class MainClass02 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

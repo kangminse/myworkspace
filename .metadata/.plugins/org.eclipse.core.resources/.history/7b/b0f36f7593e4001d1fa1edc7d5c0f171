@@ -1,0 +1,6 @@
+package test_dto;
+
+public class MemberDTO {
+	int age=0;
+	String name=null;
+}

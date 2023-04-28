@@ -1,0 +1,14 @@
+package test.care;
+
+import test.java.TestClass01;
+
+public class Main01 {
+	public static void main(String[] args) {
+		Test01 t = new Test01();
+		t.test();
+		TestClass01 t01 = new TestClass01();
+		t01.test();
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package if_else;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int h;
+		int m;
+		int cnt;
+		
+		System.out.print("산책을 나가는 시간 : ");
+		h=input.nextInt();
+		m=input.nextInt();
+		System.out.print("산책을 하는 시간 : ");
+		cnt=input.nextInt();
+		
+		System.out.printf("%d %d", h, m);
+
+	}
+}

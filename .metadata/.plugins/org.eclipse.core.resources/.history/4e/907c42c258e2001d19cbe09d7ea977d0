@@ -1,0 +1,17 @@
+package day08_test01;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public void myInput() {
+		Scanner input = new Scanner(System.in);
+		int[] num;
+		ArrayList<String> arr = new ArrayList<>();
+		HashMap<String, String> map = new HashMap<>();
+		
+		System.out.print("수 입력 : ");
+		num = input.nextInt();
+	}
+}

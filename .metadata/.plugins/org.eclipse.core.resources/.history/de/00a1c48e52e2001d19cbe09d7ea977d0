@@ -1,0 +1,8 @@
+package object;
+
+public class TestClass07 {
+	public void test() {
+		
+	}
+	
+}

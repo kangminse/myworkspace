@@ -1,0 +1,19 @@
+package inheritance;
+
+class A09{
+	public int num = 100;
+}
+
+class B09 extends A09{
+	public void test() {
+		System.out.println(num);
+	}
+}
+
+public class MainClass09 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

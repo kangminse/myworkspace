@@ -1,0 +1,7 @@
+package main;
+
+public class Test02 {
+	public void board() {
+		System.out.println("게시판 기능입니다.");
+	}
+}

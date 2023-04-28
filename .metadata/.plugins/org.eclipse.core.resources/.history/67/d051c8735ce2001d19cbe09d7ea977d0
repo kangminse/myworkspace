@@ -1,0 +1,18 @@
+package day08_test02;
+
+import java.util.Scanner;
+
+public class MethodClass01 {
+	public int myInput() {
+		Scanner input = new Scanner(System.in);
+		System.out.print("수 입력 : ");
+		int n = input.nextInt();
+		return n;
+	}
+	
+	public bool myAs(int n) {
+		if(n%2 == 0) {
+			return true;
+		}
+	}
+}

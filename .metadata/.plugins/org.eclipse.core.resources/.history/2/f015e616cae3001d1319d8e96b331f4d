@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class TestClass {
+	
+	public ArrayList<String> test(){
+		ArrayList arr = new ArrayList<>();
+		arr.add(“hello”);
+		return arr;
+		}
+}

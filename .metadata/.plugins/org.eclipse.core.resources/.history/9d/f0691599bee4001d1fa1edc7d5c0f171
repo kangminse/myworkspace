@@ -1,0 +1,13 @@
+package quzi;
+
+import java.util.HashMap;
+
+public class Win10Main {
+	public static void main(String[] args) {
+		HashMap<String, String> info = new HashMap<>();
+		String calc = "calc", noteplad = "noteplad";
+		String msg = null;
+
+	}
+
+}

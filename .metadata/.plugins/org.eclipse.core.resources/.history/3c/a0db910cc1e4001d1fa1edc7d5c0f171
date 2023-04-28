@@ -1,0 +1,25 @@
+package quzi;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class Win10Service {
+	Win10DTO dto;
+	HashMap<String, String> map = new HashMap<>();
+	public Win10Service() {
+		dto = new Win10DTO();
+		
+		map.put("RAM", "16기가");
+		map.put("시스템 종류", "64비트");
+		dto.setInfo(map);
+		
+	}
+	
+	public void display() {
+		
+		for(Map.Entry<String, String> item : map.entryset())
+		System.out.println(dto.getInfo());
+	}
+	
+}

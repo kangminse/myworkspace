@@ -1,0 +1,13 @@
+package object;
+
+public class TestClass07 {
+	private void test() {}
+	 // private : 정보 은닉}
+	
+	public void test1(int num) {
+		if(num == 1) {
+			System.out.println(111);
+		}
+		System.out.println("다음문장실행");
+	}
+}

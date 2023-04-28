@@ -1,0 +1,25 @@
+package exception;
+
+class A04{
+	
+}
+class B04 extends A04{
+	
+}
+class C04 extends A04{
+	
+}
+
+public class MainClass04 {
+	public static void main(String[] args) {
+		C04 c = new C04();
+		A04 a;
+		a = new C04();
+		a = new B04();
+		
+	}
+}
+
+
+
+

@@ -1,0 +1,19 @@
+package variable;
+
+class TestClass05{
+	static int num;
+	static {
+		num = 100;
+	}
+	public void test() {
+		System.out.println("num : "+num);
+	}
+}
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

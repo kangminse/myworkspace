@@ -1,0 +1,23 @@
+package object;
+
+import java.util.Scanner;
+
+public class TestClass06 {
+	
+	public void myInput() {
+		Scanner input = new Scanner(System.in);
+		int n1, n2, sum;
+		System.out.print("수 입력 : ");
+		n1 = input.nextInt();
+		
+		System.out.print("수 입력 : ");
+		n2 = input.nextInt();
+	}
+	
+	public void test() {
+		
+		int sum = n1 + n2;
+		System.out.println(n1 + "+" + n2 + "=" + sum);
+		
+	}
+}

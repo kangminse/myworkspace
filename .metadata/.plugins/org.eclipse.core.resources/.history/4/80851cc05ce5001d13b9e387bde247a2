@@ -1,0 +1,16 @@
+package singleton;
+
+class A03{
+	private A03(){
+		System.out.println("생성자 실행");
+	}
+	public A03 getInstance() {
+		return new A03();
+	}
+}
+
+public class MainClass03 {
+	public static void main(String[] args) {
+		A03 a01 = new A03();
+	}
+}

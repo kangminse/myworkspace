@@ -1,0 +1,14 @@
+package day08_test01;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		MethodClass01 m = new MethodClass01();
+		
+		String[] name = m.myInput();
+		m.myOutput(name);
+		
+		m.myArr();
+		m.myOutput(name);
+		
+	}//main
+}//class

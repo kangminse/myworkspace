@@ -1,0 +1,48 @@
+-- VERSION_5
+-- START DISKCACHE_3
+D:\오전취업반_강민서\git-test\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\BackJoon\com.python.pydev.analysis\v2_indexcache
+if.2480|1681449588654272600|D:\오전취업반_강민서\myworkspace\BackJoon\if\2480.py
+for.__init__|1681449951540999200|D:\오전취업반_강민서\myworkspace\BackJoon\for|^
+10807|1681792665013995000|D:\오전취업반_강민서\myworkspace\BackJoon\10807.py
+if.__init__|1681449834973433700|D:\오전취업반_강민서\myworkspace\BackJoon\if|^
+10871|1681792886977771200|D:\오전취업반_강민서\myworkspace\BackJoon\10871.py
+for.25304|1681782294360509000|D:\오전취업반_강민서\myworkspace\BackJoon\for\25304.py
+if.2525|1681366023957250100|D:\오전취업반_강민서\myworkspace\BackJoon\if\2525.py
+if.p14681|1681275323330025300|D:\오전취업반_강민서\myworkspace\BackJoon\if\p14681.py
+if.2884|1681278872062055400|D:\오전취업반_강민서\myworkspace\BackJoon\if\2884.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+6=10807
+14=for.25304
+10=if.2525
+3=D:\오전취업반_강민서\myworkspace\BackJoon\if\2480.py
+5=D:\오전취업반_강민서\myworkspace\BackJoon\10807.py
+12=if.2884
+13=D:\오전취업반_강민서\myworkspace\BackJoon\for\25304.py
+9=D:\오전취업반_강민서\myworkspace\BackJoon\if\2525.py
+4=if.2480
+1=D:\오전취업반_강민서\myworkspace\BackJoon\if\p14681.py
+7=D:\오전취업반_강민서\myworkspace\BackJoon\10871.py
+8=10871
+2=if.p14681
+11=D:\오전취업반_강민서\myworkspace\BackJoon\if\2884.py
+-- END DICTIONARY
+-- START TREE 1
+12
+a|1|a!1^1#1*19@
+ali|3|alist!3^3#1*35@alist!5^2#1*51@alist!7^3#1*67@
+b|1|b!1^2#1*19@
+c|1|c!9^2#1*83@
+cnt|2|cnt!9^5#1*83@cnt!3^5#1*35@
+h|1|h!11^8#9*99@
+hou|1|hour!9^6#1*83@
+mit|2|mit!11^3#1*99@mit!9^4#1*83@
+n|2|n!5^1#1*51@n!13^2#1*115@
+sum|2|sum_total!13^3#1*115@sum!5^4#1*51@
+tot|1|total!13^1#1*115@
+v|2|v!5^3#1*51@v!7^2#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

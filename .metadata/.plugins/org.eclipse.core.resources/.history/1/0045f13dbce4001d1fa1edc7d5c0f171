@@ -1,0 +1,23 @@
+package temp;
+
+import java.util.Scanner;
+
+public class TempMain {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int temp;
+		TempService cnt_t = new TempService();
+		
+		System.out.print("현재 온도를 입력해주세요 : ");
+		temp = input.nextInt();
+		
+		while(true) {
+			System.out.println("1.온도 올리기");
+			System.out.println("1.온도 내리기");
+			System.out.println("1.현재 설정 정보");
+		}
+
+		
+	}
+
+}

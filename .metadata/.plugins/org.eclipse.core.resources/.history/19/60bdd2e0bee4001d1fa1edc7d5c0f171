@@ -1,0 +1,19 @@
+package quzi;
+
+import java.util.HashMap;
+
+public class Win10Main {
+	public static void main(String[] args) {
+		HashMap<String, String> info = new HashMap<>();
+		String calc = "calc", noteplad = "noteplad";
+		String msg = null;
+		System.out.println("1.성능");
+		System.out.println("2.기능사용");
+		System.out.print("항목을 선택해주세요 : ");
+		
+		
+		switch()
+
+	}
+
+}

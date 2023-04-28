@@ -1,0 +1,23 @@
+package variable;
+
+class TestClass06{
+	private int num = 100;
+	public void test() {
+		num = 1111;
+	}
+	
+	public void test2() {
+		System.out.println(num);
+	}
+}
+
+public class MainClass06 {
+	public static void main(String[] args) {
+		TestClass06 t  = new TestClass06();
+		t.test();
+		t.test2();
+		
+		
+	}
+	
+}

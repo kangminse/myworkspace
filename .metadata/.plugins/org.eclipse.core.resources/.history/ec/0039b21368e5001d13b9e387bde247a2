@@ -1,0 +1,25 @@
+package inheritance;
+
+/*
+ protected : public과 private의 중간 => 외부의 접근은 불가능하지만 자식에게는 허용된다
+ private < default < protected < public
+ */
+
+class A09{
+	protected int num = 100;
+}
+
+class B09 extends A09{
+	public void test() {
+		System.out.println(num);
+	}
+}
+
+public class MainClass09 {
+	public static void main(String[] args) {
+		B09 b = new B09();
+		b.test();
+
+	}
+
+}

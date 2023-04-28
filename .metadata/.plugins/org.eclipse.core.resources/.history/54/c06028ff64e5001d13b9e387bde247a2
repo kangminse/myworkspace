@@ -1,0 +1,18 @@
+package inheritance;
+
+class A05{
+	public A05(int n) {
+		System.out.println(n+" : 생성자");
+	}
+}
+
+
+
+public class MainClass05 {
+	public static void main(String[] args) {
+		A05 a = new A05(100);
+		
+
+	}
+
+}

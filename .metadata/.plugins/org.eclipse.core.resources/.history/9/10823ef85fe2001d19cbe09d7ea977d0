@@ -1,0 +1,11 @@
+package day08_test05;
+
+import day08_test04.MethodClass01;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		MethodClass01 m = new MethodClass01();
+		
+		
+	}
+}

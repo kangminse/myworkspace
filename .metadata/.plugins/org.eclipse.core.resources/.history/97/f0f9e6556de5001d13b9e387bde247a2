@@ -1,0 +1,17 @@
+package exception;
+
+public class MainClass03 {
+
+	public static void main(String[] args) {
+		int num = 0;
+		int[] arr = new int[3];
+		arr[0]=1; arr[1]=2; arr[2]=3;
+		
+		try {
+			System.out.println(10/0);
+		} catch (Exception e) {
+			System.out.println("0으로 나눌수 없음");
+		}
+		
+	}//main
+}//class

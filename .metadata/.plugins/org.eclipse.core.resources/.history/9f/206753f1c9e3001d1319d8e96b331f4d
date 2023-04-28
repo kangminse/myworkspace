@@ -1,0 +1,10 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		int sum=0;
+		TestClass t = new TestClass();
+		sum = t.test(10, 15);
+		System.out.println(sum);
+	}
+}

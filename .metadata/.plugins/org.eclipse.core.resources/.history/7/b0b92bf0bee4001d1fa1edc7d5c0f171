@@ -1,0 +1,14 @@
+package quzi;
+
+import java.util.HashMap;
+
+public class Win10Service {
+	Win10DTO dto;
+	public Win10Service() {
+		dto = new Win10DTO();
+		HashMap<String, String> map = new HashMap<>();
+		map.put("kkk", "vvv");
+		dto.setInfo(map);
+		
+	}
+}
